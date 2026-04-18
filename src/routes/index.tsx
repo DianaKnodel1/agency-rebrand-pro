@@ -3,6 +3,7 @@ import { useState, type FormEvent } from "react";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SuccessModal } from "@/components/SuccessModal";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -358,6 +359,7 @@ function Index() {
       </section>
 
       <SiteFooter />
+      <WhatsAppButton />
       <SuccessModal open={success} onClose={() => setSuccess(false)} />
     </div>
   );
