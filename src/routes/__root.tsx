@@ -38,6 +38,13 @@ export const Route = createRootRoute({
       { name: "author", content: "agentur.24 UG" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { property: "og:title", content: "agentur.24 UG" },
+      { name: "twitter:title", content: "agentur.24 UG" },
+      { name: "description", content: "agentur.24 UG website refresh provides a professional, serious online presence." },
+      { property: "og:description", content: "agentur.24 UG website refresh provides a professional, serious online presence." },
+      { name: "twitter:description", content: "agentur.24 UG website refresh provides a professional, serious online presence." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1e8a7fd-d442-4030-9d7f-3b8fe60bca1c/id-preview-70ee96ae--4e2dff9f-7c97-4fab-9ff4-dce069030fbe.lovable.app-1776567720920.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1e8a7fd-d442-4030-9d7f-3b8fe60bca1c/id-preview-70ee96ae--4e2dff9f-7c97-4fab-9ff4-dce069030fbe.lovable.app-1776567720920.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
