@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { getWhatsAppLink, WHATSAPP_DISPLAY } from "@/lib/contact";
+import { CONTACT_EMAIL, getMailtoLink, getWhatsAppLink, WHATSAPP_DISPLAY } from "@/lib/contact";
 
 export const Route = createFileRoute("/kontakt")({
   head: () => ({
