@@ -8,6 +8,15 @@ export const WHATSAPP_DEFAULT_MESSAGE =
 export const SITE_URL = "https://kadermarketing-agentur.de";
 export const BRAND_NAME = "Kadermarketing Agentur";
 export const LEGAL_ENTITY = "agentur.24 UG (haftungsbeschränkt)";
+export const CONTACT_EMAIL = "info@kadermarketing-agentur.de";
+
+export function getMailtoLink(subject?: string, body?: string) {
+  const params = new URLSearchParams();
+  if (subject) params.set("subject", subject);
+  if (body) params.set("body", body);
+  const query = params.toString();
+  return `mailto:${CONTACT_EMAIL}${query ? `?${query}` : ""}`;
+}
 
 export function getWhatsAppLink(message: string = WHATSAPP_DEFAULT_MESSAGE) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
