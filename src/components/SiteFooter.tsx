@@ -20,11 +20,6 @@ export function SiteFooter() {
               <br />
               Deutschland
             </p>
-            <p className="mt-2 text-sm text-muted-foreground">
-              <a href="https://kadermarketing-agentur.de" className="hover:text-foreground">
-                kadermarketing-agentur.de
-              </a>
-            </p>
             <p className="mt-4 text-sm text-muted-foreground">
               Betrieben durch:{" "}
               <span className="font-medium text-foreground">agentur.24 UG (haftungsbeschränkt)</span>
