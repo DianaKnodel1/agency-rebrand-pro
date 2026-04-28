@@ -65,6 +65,27 @@ function Kontakt() {
           </div>
 
           <div className="rounded-md border border-hairline bg-surface p-8 md:col-span-2">
+            <h2 className="mb-5 font-serif text-xl text-foreground">E-Mail</h2>
+            <p className="mb-5 text-sm leading-relaxed text-muted-foreground">
+              Sie erreichen uns jederzeit per E-Mail unter{" "}
+              <a href={getMailtoLink()} className="font-medium text-foreground underline-offset-4 hover:underline">
+                {CONTACT_EMAIL}
+              </a>
+              .
+            </p>
+            <a
+              href={getMailtoLink()}
+              className="inline-flex items-center gap-2 rounded-sm border border-hairline bg-background px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-surface"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4" aria-hidden>
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+              </svg>
+              E-Mail schreiben
+            </a>
+          </div>
+
+          <div className="rounded-md border border-hairline bg-surface p-8 md:col-span-2">
             <h2 className="mb-5 font-serif text-xl text-foreground">Erreichbarkeit</h2>
             <p className="text-sm leading-relaxed text-muted-foreground">
               Wir bearbeiten Anfragen werktags von Montag bis Freitag. In der Regel erhalten Sie
