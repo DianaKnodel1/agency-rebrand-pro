@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { getWhatsAppLink, WHATSAPP_DISPLAY } from "@/lib/contact";
+import { CONTACT_EMAIL, getWhatsAppLink, getMailtoLink, WHATSAPP_DISPLAY } from "@/lib/contact";
 
 export function SiteFooter() {
   return (
