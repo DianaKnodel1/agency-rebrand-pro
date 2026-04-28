@@ -5,12 +5,12 @@ import { SiteFooter } from "@/components/SiteFooter";
 export const Route = createFileRoute("/impressum")({
   head: () => ({
     meta: [
-      { title: "Impressum – agentur.24 UG" },
+      { title: "Impressum – Kadermarketing Agentur" },
       {
         name: "description",
-        content: "Impressum der agentur.24 UG (haftungsbeschränkt) gemäß § 5 TMG.",
+        content: "Impressum der Kadermarketing Agentur – betrieben durch agentur.24 UG (haftungsbeschränkt) gemäß § 5 TMG.",
       },
-      { property: "og:title", content: "Impressum – agentur.24 UG" },
+      { property: "og:title", content: "Impressum – Kadermarketing Agentur" },
       { property: "og:description", content: "Pflichtangaben gemäß § 5 TMG." },
     ],
   }),
@@ -33,12 +33,16 @@ function Impressum() {
           <section>
             <h2 className="mb-2 font-serif text-lg text-foreground">Angaben gemäß § 5 TMG</h2>
             <p>
-              agentur.24 UG (haftungsbeschränkt)
+              Kadermarketing Agentur
+              <br />
+              <span className="text-foreground/80">Betrieben durch: agentur.24 UG (haftungsbeschränkt)</span>
               <br />
               Genshagener Str. 23 A<br />
               14979 Großbeeren
               <br />
               Deutschland
+              <br />
+              Web: <a href="https://kadermarketing-agentur.de" className="hover:text-foreground">kadermarketing-agentur.de</a>
             </p>
           </section>
 

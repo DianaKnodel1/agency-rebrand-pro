@@ -9,9 +9,9 @@ export function SiteFooter() {
           <div>
             <div className="flex items-center gap-2.5 font-serif text-lg text-foreground">
               <span className="flex h-8 w-8 items-center justify-center rounded-sm bg-brand text-[11px] font-semibold text-brand-foreground">
-                a.24
+                KM
               </span>
-              <span>agentur.24 UG</span>
+              <span>Kadermarketing Agentur</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
               Genshagener Str. 23 A
@@ -20,7 +20,16 @@ export function SiteFooter() {
               <br />
               Deutschland
             </p>
+            <p className="mt-2 text-sm text-muted-foreground">
+              <a href="https://kadermarketing-agentur.de" className="hover:text-foreground">
+                kadermarketing-agentur.de
+              </a>
+            </p>
             <p className="mt-4 text-sm text-muted-foreground">
+              Betrieben durch:{" "}
+              <span className="font-medium text-foreground">agentur.24 UG (haftungsbeschränkt)</span>
+            </p>
+            <p className="mt-1 text-sm text-muted-foreground">
               Geschäftsführer:{" "}
               <span className="font-medium text-foreground">Hassan Abdelkader</span>
             </p>
@@ -75,7 +84,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-hairline pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} agentur.24 UG (haftungsbeschränkt). Alle Rechte vorbehalten.</p>
+          <p>© {new Date().getFullYear()} Kadermarketing Agentur · agentur.24 UG (haftungsbeschränkt). Alle Rechte vorbehalten.</p>
           <p>Sitz: Großbeeren · Deutschland</p>
         </div>
       </div>

@@ -6,10 +6,10 @@ export function SiteNav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center gap-2.5 font-serif text-lg tracking-tight text-foreground">
           <span className="flex h-8 w-8 items-center justify-center rounded-sm bg-brand text-[11px] font-semibold text-brand-foreground">
-            a.24
+            KM
           </span>
           <span>
-            agentur<span className="text-brand-subtle">.</span>24
+            Kadermarketing<span className="text-brand-subtle"> </span>Agentur
           </span>
         </Link>
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">

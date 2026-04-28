@@ -7,14 +7,14 @@ import { getWhatsAppLink, WHATSAPP_DISPLAY } from "@/lib/contact";
 export const Route = createFileRoute("/kontakt")({
   head: () => ({
     meta: [
-      { title: "Kontakt – agentur.24 UG" },
+      { title: "Kontakt – Kadermarketing Agentur" },
       {
         name: "description",
         content:
-          "Kontaktinformationen der agentur.24 UG: Anschrift, Geschäftsführung und Erreichbarkeit.",
+          "Kontakt zur Kadermarketing Agentur in Großbeeren: Anschrift, Geschäftsführung und Erreichbarkeit.",
       },
-      { property: "og:title", content: "Kontakt – agentur.24 UG" },
-      { property: "og:description", content: "So erreichen Sie die agentur.24 UG in Großbeeren." },
+      { property: "og:title", content: "Kontakt – Kadermarketing Agentur" },
+      { property: "og:description", content: "So erreichen Sie die Kadermarketing Agentur in Großbeeren." },
     ],
   }),
   component: Kontakt,
@@ -36,12 +36,18 @@ function Kontakt() {
           <div className="rounded-md border border-hairline bg-surface p-8">
             <h2 className="mb-5 font-serif text-xl text-foreground">Anschrift</h2>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              agentur.24 UG (haftungsbeschränkt)
+              Kadermarketing Agentur
+              <br />
+              <span className="text-foreground/70">agentur.24 UG (haftungsbeschränkt)</span>
               <br />
               Genshagener Str. 23 A<br />
               14979 Großbeeren
               <br />
               Deutschland
+              <br />
+              <a href="https://kadermarketing-agentur.de" className="hover:text-foreground">
+                kadermarketing-agentur.de
+              </a>
             </p>
           </div>
 
