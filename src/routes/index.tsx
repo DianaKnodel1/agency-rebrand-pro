@@ -8,13 +8,13 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "agentur.24 UG – Karriere & Personalberatung in Großbeeren" },
+      { title: "Kadermarketing Agentur – Karriere & Recruiting in Großbeeren" },
       {
         name: "description",
         content:
-          "agentur.24 UG aus Großbeeren bietet Karrierechancen in Beratung und digitalen Services. Bewerben Sie sich in wenigen Minuten online.",
+          "Kadermarketing Agentur aus Großbeeren – Personalmarketing & Recruiting. Bewerben Sie sich in wenigen Minuten online. Betrieben durch die agentur.24 UG.",
       },
-      { property: "og:title", content: "agentur.24 UG – Karriere & Personalberatung" },
+      { property: "og:title", content: "Kadermarketing Agentur – Karriere & Recruiting" },
       {
         property: "og:description",
         content:
@@ -69,15 +69,15 @@ function Index() {
           <div className="md:col-span-8">
             <p className="mb-6 inline-flex items-center gap-2 text-xs font-medium uppercase tracking-[0.18em] text-brand-foreground/70">
               <span className="h-px w-8 bg-brand-foreground/40" />
-              Karriere bei agentur.24 UG
+              Karriere bei der Kadermarketing Agentur
             </p>
             <h1 className="font-serif text-4xl leading-[1.05] tracking-tight md:text-6xl">
-              Verlässliche Beratung.{" "}
-              <span className="text-brand-foreground/70">Klare Perspektiven.</span>
+              Personalmarketing mit Substanz.{" "}
+              <span className="text-brand-foreground/70">Recruiting auf Augenhöhe.</span>
             </h1>
             <p className="mt-7 max-w-2xl text-base leading-relaxed text-brand-foreground/75 md:text-lg">
-              Wir verbinden Menschen mit passenden Aufgaben in Beratung und digitalen Services –
-              transparent, fair und auf Augenhöhe. Bewerben Sie sich in wenigen Minuten.
+              Wir verbinden Menschen mit passenden Positionen – transparent, fair und
+              verbindlich. Bewerben Sie sich in wenigen Minuten direkt online.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
@@ -183,15 +183,15 @@ function Index() {
               Über uns
             </p>
             <h2 className="font-serif text-3xl tracking-tight text-foreground md:text-4xl">
-              agentur.24 UG
+              Kadermarketing Agentur
             </h2>
           </div>
           <div className="md:col-span-7">
             <p className="text-base leading-relaxed text-muted-foreground">
-              Die agentur.24 UG (haftungsbeschränkt) mit Sitz in Großbeeren ist ein
-              inhabergeführtes Unternehmen mit Fokus auf Beratungs- und Vermittlungs­leistungen
-              im digitalen Umfeld. Wir arbeiten zuverlässig, dokumentiert und im engen Austausch
-              mit unseren Mitarbeitenden.
+              Die Kadermarketing Agentur – betrieben durch die agentur.24 UG (haftungsbeschränkt)
+              mit Sitz in Großbeeren – ist ein inhabergeführtes Unternehmen mit Fokus auf
+              Personalmarketing, Recruiting und digitale Services. Wir arbeiten zuverlässig,
+              dokumentiert und im engen Austausch mit unseren Mitarbeitenden.
             </p>
             <p className="mt-5 text-base leading-relaxed text-muted-foreground">
               Unser Anspruch ist es, ein professionelles Arbeitsumfeld zu schaffen, das auf

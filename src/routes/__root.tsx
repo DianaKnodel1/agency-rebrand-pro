@@ -29,20 +29,21 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "agentur.24 UG" },
+      { title: "Kadermarketing Agentur – Personalmarketing & Recruiting" },
       {
         name: "description",
         content:
-          "agentur.24 UG (haftungsbeschränkt) – Beratung und digitale Services aus Großbeeren.",
+          "Kadermarketing Agentur aus Großbeeren – Personalmarketing, Recruiting und digitale Services. Betrieben durch die agentur.24 UG (haftungsbeschränkt).",
       },
-      { name: "author", content: "agentur.24 UG" },
+      { name: "author", content: "Kadermarketing Agentur" },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { property: "og:title", content: "agentur.24 UG" },
-      { name: "twitter:title", content: "agentur.24 UG" },
-      { name: "description", content: "agentur.24 UG website refresh provides a professional, serious online presence." },
-      { property: "og:description", content: "agentur.24 UG website refresh provides a professional, serious online presence." },
-      { name: "twitter:description", content: "agentur.24 UG website refresh provides a professional, serious online presence." },
+      { property: "og:site_name", content: "Kadermarketing Agentur" },
+      { property: "og:url", content: "https://kadermarketing-agentur.de" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Kadermarketing Agentur" },
+      { name: "twitter:title", content: "Kadermarketing Agentur" },
+      { property: "og:description", content: "Personalmarketing & Recruiting aus Großbeeren – professionell, transparent und DSGVO-konform." },
+      { name: "twitter:description", content: "Personalmarketing & Recruiting aus Großbeeren – professionell, transparent und DSGVO-konform." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1e8a7fd-d442-4030-9d7f-3b8fe60bca1c/id-preview-70ee96ae--4e2dff9f-7c97-4fab-9ff4-dce069030fbe.lovable.app-1776567720920.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a1e8a7fd-d442-4030-9d7f-3b8fe60bca1c/id-preview-70ee96ae--4e2dff9f-7c97-4fab-9ff4-dce069030fbe.lovable.app-1776567720920.png" },
     ],
@@ -66,9 +67,10 @@ export const Route = createRootRoute({
 
 function RootShell({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <head>
         <HeadContent />
+        <link rel="canonical" href="https://kadermarketing-agentur.de/" />
       </head>
       <body>
         {children}
